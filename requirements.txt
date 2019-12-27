@@ -1,0 +1,6 @@
+numpy
+fvcore
+psutil
+cvpm
+opencv-python
+cython
