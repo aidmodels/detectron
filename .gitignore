@@ -1,3 +1,4 @@
 docker_*
 runner_*
 entry
+*.pyc

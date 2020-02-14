@@ -1,6 +1,6 @@
 numpy
 fvcore
 psutil
-cvpm
+mlpm==1.0.0b
 opencv-python
 cython

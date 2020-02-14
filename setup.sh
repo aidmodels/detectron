@@ -1,6 +1,8 @@
 apt-get update
 apt-get install -y git
 apt-get install -y libgtk2.0-dev
+pip3 uninstall -y Pillow
+pip3 install Pillow==6.1
 pip3 install torch==1.3.1+cpu torchvision==0.4.2+cpu -f https://download.pytorch.org/whl/torch_stable.html
 pip3 install 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'
 git clone https://github.com/facebookresearch/detectron2 detectron2_repo

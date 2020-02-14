@@ -1,0 +1,7 @@
+[package]
+name="detectron"
+vendor="aicamp"
+
+[[solvers]]
+name="Image_Segmentation"
+class="detectron/solver/ImageSegmentationSolver"
