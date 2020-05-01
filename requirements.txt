@@ -1,4 +1,6 @@
 numpy
+torch
+torchvision
 fvcore
 psutil
 mlpm
