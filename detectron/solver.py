@@ -6,7 +6,7 @@ from detectron2.config import get_cfg
 
 import cv2
 
-class ImageSegmentationSolver(Solver):
+class DetectionSolver(Solver):
     def __init__(self):
         cfg = get_cfg()
         cfg.merge_from_file(model_zoo.get_config_file(
