@@ -1,7 +1,8 @@
 [package]
 name="detectron"
-vendor="aicamp"
-
+vendor="aidmodels"
+description="image detection models"
+gpu=false
 [[solvers]]
 name="detection"
 class="detectron/solver/DetectionSolver"

@@ -4,5 +4,5 @@ torchvision
 fvcore
 psutil
 mlpm
-opencv-python
+opencv-python-headless
 cython
